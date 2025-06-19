@@ -5,14 +5,16 @@ import RealWheel from '@/components/RearWheel.vue';
 
 <template>
     <h1>Hello Vue!</h1>
-    <h1>Hello Vue!</h1>
+    <!-- <h1>Hello Vue!</h1>
 <FrontWheel></FrontWheel>
-<RealWheel></RealWheel>
+<RealWheel></RealWheel> -->
 
 
 <div class="car">
-<FrontWheel />
-<RealWheel/>
+<FrontWheel/><FrontWheel />
+</div>
+<div class="car">
+<RealWheel/><RealWheel />
 </div>
 </template>
 
